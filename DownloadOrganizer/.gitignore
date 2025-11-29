@@ -1,0 +1,12 @@
+#Ignore Build Outputs
+bin/
+obj/
+
+#Visual # Visual Studio files
+*.user
+*.suo
+*.vscode/
+*.vs/
+
+# Other temporary files
+*.log

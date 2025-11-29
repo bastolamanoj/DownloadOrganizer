@@ -7,6 +7,7 @@
 /media/jonam/Code/SmallProj/DownloadOrganizer/DownloadOrganizer/obj/Debug/net10.0/DownloadOranizer.AssemblyInfoInputs.cache
 /media/jonam/Code/SmallProj/DownloadOrganizer/DownloadOrganizer/obj/Debug/net10.0/DownloadOranizer.AssemblyInfo.cs
 /media/jonam/Code/SmallProj/DownloadOrganizer/DownloadOrganizer/obj/Debug/net10.0/DownloadOranizer.csproj.CoreCompileInputs.cache
+/media/jonam/Code/SmallProj/DownloadOrganizer/DownloadOrganizer/obj/Debug/net10.0/DownloadOranizer.sourcelink.json
 /media/jonam/Code/SmallProj/DownloadOrganizer/DownloadOrganizer/obj/Debug/net10.0/DownloadOranizer.dll
 /media/jonam/Code/SmallProj/DownloadOrganizer/DownloadOrganizer/obj/Debug/net10.0/refint/DownloadOranizer.dll
 /media/jonam/Code/SmallProj/DownloadOrganizer/DownloadOrganizer/obj/Debug/net10.0/DownloadOranizer.pdb

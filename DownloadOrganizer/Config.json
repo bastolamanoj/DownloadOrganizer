@@ -1,10 +1,11 @@
 {
-    "DownloadPath":"",
+    "DownloadPath":"/home/dev/Projects/DownloadOrganizer",
     "Rules":{
         "Software" : ["*.exe","*.AppImage", "*.msi","*.deb"],
         "Documents":["*.pdf", "*.doc", "*.ppt", "*.docx", "*.xls", "*.xlsx", "*.pptx"],
         "Images": ["*.jpg","*.jpeg", "*.png","*.gif"],
         "Archives": ["*.zip","*.rar","*.tar.gz","*.7z"],
-        "Media":["*.mp3", "*.mp4", "*.mkv"]
+        "Media":["*.mp3", "*.mp4", "*.mkv"],
+        "Scripts":["*.sh", "*.bat"]
     }
 }
