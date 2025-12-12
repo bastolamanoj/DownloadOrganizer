@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DownloadOranizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92c8afc74df2ebb8ee9625ba18d3e22ef4991c8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b465bcaa8a024491aa5e732253015a9a6e9b633")]
 [assembly: System.Reflection.AssemblyProductAttribute("DownloadOranizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DownloadOranizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

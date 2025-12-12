@@ -10,3 +10,6 @@ obj/
 
 # Other temporary files
 *.log
+
+# Ignore Publish files
+/Publish

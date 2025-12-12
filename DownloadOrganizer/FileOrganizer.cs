@@ -2,12 +2,12 @@ using System.Text.Json;
 public class FileOrganizer
 {
     public string DonwloadPath {get;set;} 
-    public Dicotonary<string, List<string>> Rules{get;set;}
+    public Dictionary<string, List<string>> Rules{get;set;}
 
     public static FileOrganizer Load(string configPath)
     {
         var json = File.ReadAllText(configPath);
-        return JsonSerilizer.Deserilize<FileOrganizer>(json);
+        return JsonSerializer.Deserialize<FileOrganizer>(json);
     }
 
     public void Oragnize()
@@ -18,10 +18,10 @@ public class FileOrganizer
 
         foreach(var rule in Rules)
         {
-            string categoryFolder = Path.Combine(downloads,rule,key); 
+            string categoryFolder = Path.Combine(downloads,rule.Key); 
             Directory.CreateDirectory(categoryFolder);
 
-            foreach(var pattern in rule)
+            foreach(var pattern in rule.Value)
             {
                 var files = Directory.GetFiles(downloads, pattern, SearchOption.TopDirectoryOnly);
                 foreach (var file in files)
