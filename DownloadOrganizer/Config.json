@@ -1,5 +1,8 @@
 {
     "DownloadPath":"/home/dev/Projects/DownloadOrganizer",
+    "ScanIntervalSeconds": 60,
+    "EnableWatcher": true,
+    "EnableScheduledScan": true,
     "Rules":{
         "Software" : ["*.exe","*.AppImage", "*.msi","*.deb"],
         "Documents":["*.pdf", "*.doc", "*.ppt", "*.docx", "*.xls", "*.xlsx", "*.pptx", "*.txt"],
