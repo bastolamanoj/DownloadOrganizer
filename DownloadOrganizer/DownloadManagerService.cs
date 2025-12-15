@@ -8,7 +8,9 @@ public class DownloadManagerService : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var config = FileOrganizer.Load("Config.json");
+        string basePath = AppContext.BaseDirectory;
+        string configPath = Path.Combine(basePath, "Config.json");
+        var config = FileOrganizer.Load(configPath);
         var detector = new DownloadCompletionDetector();
 
         // a. Start FileSystemWatcher if enabled
